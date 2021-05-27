@@ -9,7 +9,7 @@ Follow the hardware setup [here](https://github.com/geerlingguy/raspberry-pi-dra
 
 ### Setup Master Node
 * Choose a node (raspberry pi) as a master node
-* Install K3# by
+* Install K3S by
 ```bash
 curl -sfL https://get.k3s.io | sh -
 ```
