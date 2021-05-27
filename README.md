@@ -30,7 +30,7 @@ curl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.100:6443 K3S_TOKEN=<TOK
 ```bash
 sudo kubectl get node -o wide
 ```
-* Follow the same steps to add more worker node with different work names. 
+* Follow the same steps to add more worker nodes with different worker names. 
 * Nit: add role to worker node
 ```bash
 sudo kubectl label node k3s-node-1 node-role.kubernetes.io/worker=worker
