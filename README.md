@@ -22,7 +22,7 @@ sudo kubectl get nodes
 sudo cat /var/lib/rancher/k3s/server/node-token
 ```
 ### Setup Worker Nodes
-* suppose the master node's ip is 192.168.1.100 and token is <TOKEN>, the worker name is k3s-node-1
+* suppose the master node's ip is 192.168.1.100 and token is \<TOKEN\>, the worker name is k3s-node-1
 ```bash
 curl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.100:6443 K3S_TOKEN=<TOKEN> K3S_NODE_NAME=k3s-node-1 sh -
 ```
