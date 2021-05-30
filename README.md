@@ -6,8 +6,10 @@ Group of k8s deployments with detailed steps
 Follow the hardware setup [here](https://github.com/geerlingguy/raspberry-pi-dramble#setting-up-the-pis)
 
 The following is my setup. The heatsink and a USB fan can make sure the CPU temp under 40 degree. 
-![Cluster Back](https://github.com/GuanyiLi-Craig/k8s-deployments/blob/main/img/Cluster_back.jpg)
-![Cluster Front](https://github.com/GuanyiLi-Craig/k8s-deployments/blob/main/img/Cluster_front.jpg)
+
+ Cluster Back              |  Cluster Front
+:-------------------------:|:-------------------------:
+![Cluster Back](https://github.com/GuanyiLi-Craig/k8s-deployments/blob/main/img/Cluster_back.jpg)  |  ![Cluster Front](https://github.com/GuanyiLi-Craig/k8s-deployments/blob/main/img/Cluster_front.jpg)
 
 ## Install K3S 
 
