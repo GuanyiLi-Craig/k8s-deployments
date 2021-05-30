@@ -7,7 +7,7 @@ This is the first service I want to deploy on RPi K8S cluster. Based on official
 1. Deploy MySQL and Add Permission
 	1. Deploy MySQL by `kubectl create -f mysql-deployment.yaml`
 	2. Get MySQL pod IP by `kubectl get pods -o wide` 
-	3. Access MySQL pod by `kubectl exec -it \<MySQL pod name\> /bin/bash`
+	3. Access MySQL pod by `kubectl exec -it <MySQL pod name> /bin/bash`
 	4. Add permission and wordpress database
 ```bash
 mysql -p # input password: admin
