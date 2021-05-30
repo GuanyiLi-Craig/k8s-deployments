@@ -1,6 +1,6 @@
 # Wordpress
 
-This is the first service I want to deploy on RPi K8S cluster. Based on official (wordpress deployment page)[https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/], I thought it would be straight forward but I was wrong. Because RPi require MySQL based on arm platform, so it is trivial to change MySQL image. Then the wordpres pod log shown failed to connect to mysql. So I found a workaround to make it work but by far, I have not been able to deploy Wordpress with MySQL without hardcoding.    
+This is the first service I want to deploy on RPi K8S cluster. Based on official [wordpress deployment page](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/), I thought it would be straight forward but I was wrong. Because RPi require MySQL based on arm platform, so it is trivial to change MySQL image. Then the wordpres pod log shown msg like "failed to connect to mysql". So I found a workaround to make it work but by far, I have not been able to deploy Wordpress with MySQL without hardcoding.    
 
 ## Deploy
 
