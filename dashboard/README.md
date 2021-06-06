@@ -67,7 +67,7 @@ Get token by
 sudo k3s kubectl -n kubernetes-dashboard describe secret admin-user-token
 ```
 
-Then access the dashboard from link: https://<master-node-ip>:30246
+Then access the dashboard from link: https://\<master-node-ip\>:30246
 
 
 
